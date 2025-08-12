@@ -15,4 +15,4 @@ A web app to search universities worldwide by name or country using the [Hipolab
 - Hipolabs API
 
 ## 🚀 Live Demo
-[Click here](#) (link will be added after deployment)
+[Click here to visit UniHub](https://tirthchaudhary.github.io/UNIHUB/)
