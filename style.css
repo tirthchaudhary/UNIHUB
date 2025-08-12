@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #111827;
+    color: #F3F4F6;
+}
+
+p{
+    color: darkgray;
+}
+
+.header {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.logo img {
+    height: 150px;
+    width: auto;
+}
+
+.about a {
+    font-size: 22px;
+    margin-right: 195px;
+    color: #F3F4F6;
+    text-decoration: none;
+}
+
+.main {
+    height: calc(100vh - 160px); /* fixed spaces in calc */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main p{
+    color: darkgrey;
+}
+
+
+.search-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 700px;
+    height: 70px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#country{
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+width: 350px;
+height: 70px;
+}
+
+.search-container button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-container button:hover {
+  background-color: #45a049;
+}
+
+.below-search{
+    margin-top: 25px;
+}
+
+.cards{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.card1{
+    height: 225px;   
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    
+}
+
+.card1 p{
+    margin-top: 20px;
+    color: darkgrey;
+}
+
+.card1 h1{
+    font-size: 32px;
+}
+
+.card2{
+    height: 225px;   
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-right: 20px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.card2 h1{
+    font-size: 30px;
+    display: flex;
+}
+
+.card2 p{
+    margin-top: 20px;
+}
+
+.card3{
+    height: 225px;   
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.card3 h1{
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card3 p{
+    color: darkgray;
+    margin-top: 20px;
+}
+
+
+.footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.footer p{
+    margin-left: 275px;
+    margin-bottom: 15px;
+}
